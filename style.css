@@ -5,20 +5,23 @@ body {
 }
 
 kartu-profil {
-width: 300px;
-margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kuru/kanan */
-padding: 20px;
-background-color: white;
-border-radius: 15px; /* Membuat sudut menjadi melengkung */
-box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
+  width: 300px;
+  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kuru/kanan */
+  padding: 20px;
+  background-color: white;
+  border-radius: 15%; /* Membuat sudut menjadi melengkung */
+  box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
+  text-align: center; /* Menengahkan semua teks di dalalam kartu */
 }
 
 .kartu-profil img {
   width: 150px;
-  borde-radius: 50%; /* Trik untuk membuat gambarpersegi menjadi lingkaran sempurna */
+  height: 150px;
+  borde-radius: 50%; /* Trik untuk membuat gambarpersegi menjadi lingkaran sempurna*/
+  object-fit: cover;
+  border: 4px solid #4CAF50;
 }
 
 
-.kartu profil {
-  text-align: center; /* Menengahkan semua teks di dalalam kartu */
-}
+
+
